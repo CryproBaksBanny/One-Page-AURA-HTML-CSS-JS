@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA Design Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header class="aura-header">
+    <nav class="nav-container">
+        <div class="logo">
+            <a href="#">AURA</a>
+        </div>
+        
+        <div class="nav-wrapper">
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Hero</a></li>
+                <li><a href="#logos" class="nav-link">Logos</a></li>
+                <li><a href="#capabilities" class="nav-link">Capabilities</a></li>
+                <li><a href="#showcase" class="nav-link">Showcase</a></li>
+                <li><a href="#process" class="nav-link">Process</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="#contact" class="nav-link nav-btn">Contact</a></li>
+            </ul>
+            
+            <button class="burger-btn">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+</header>
+<section id="hero" class="hero-section">
+    <div id="tsparticles"></div>
+
+    <div class="hero-content">
+        <div class="glass-badge">Digital Experience 2026</div>
+        <h1 class="hero-title">AURA Design Studio</h1>
+        <p class="hero-subtitle">We transform complex code into a sophisticated visual experience. The future of your brand starts here.</p>
+        
+        <div class="hero-btns">
+            <a href="#showcase" class="btn-pulse">View Work</a>
+        </div>
+    </div>
+
+    <div class="bg-glow"></div>
+</section>
+<section id="logos" class="logos-section">
+    <div class="marquee-container">
+        <div class="marquee-content">
+            <div class="logo-item">BrandOne</div>
+            <div class="logo-item">CryptoFlow</div>
+            <div class="logo-item">NexusUI</div>
+            <div class="logo-item">VibeDesign</div>
+            <div class="logo-item">BlockChainX</div>
+            <div class="logo-item">FutureTech</div>
+        </div>
+        <div class="marquee-content">
+            <div class="logo-item">BrandOne</div>
+            <div class="logo-item">CryptoFlow</div>
+            <div class="logo-item">NexusUI</div>
+            <div class="logo-item">VibeDesign</div>
+            <div class="logo-item">BlockChainX</div>
+            <div class="logo-item">FutureTech</div>
+        </div>
+        <div class="marquee-content">
+            <div class="logo-item">BrandOne</div>
+            <div class="logo-item">CryptoFlow</div>
+            <div class="logo-item">NexusUI</div>
+            <div class="logo-item">VibeDesign</div>
+            <div class="logo-item">BlockChainX</div>
+            <div class="logo-item">FutureTech</div>
+        </div>
+        <div class="marquee-content">
+            <div class="logo-item">BrandOne</div>
+            <div class="logo-item">CryptoFlow</div>
+            <div class="logo-item">NexusUI</div>
+            <div class="logo-item">VibeDesign</div>
+            <div class="logo-item">BlockChainX</div>
+            <div class="logo-item">FutureTech</div>
+        </div>
+    </div>
+</section>
+<section id="capabilities" class="caps-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="title">We make the future tangible</h2>
+        </div>
+
+        <div class="caps-grid">
+            <div class="cap-card">
+                <div class="cap-icon">🌐</div>
+                <h3>Web Design</h3>
+                <p>Creating responsive and fast websites with a unique character.</p>
+                <div class="cap-glow"></div>
+            </div>
+
+            <div class="cap-card">
+                <div class="cap-icon">✨</div>
+                <h3>UI/UX Design</h3>
+                <p>Designing interfaces that delight users.</p>
+                <div class="cap-glow"></div>
+            </div>
+
+            <div class="cap-card">
+                <div class="cap-icon">🎨</div>
+                <h3>Branding</h3>
+                <p>Developing a visual identity that sets you apart in the market.</p>
+                <div class="cap-glow"></div>
+            </div>
+
+            <div class="cap-card">
+                <div class="cap-icon">🧊</div>
+                <h3>3D Graphics</h3>
+                <p>Visualization of objects and spaces in three dimensions.</p>
+                <div class="cap-glow"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="showcase" class="showcase-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="title">Portfolio</h2>
+        </div>
+
+        <div class="masonry-grid">
+           <a href="javascript:void(0)" class="project-item"
+             onclick="handleModal(this)"
+             data-img="images/Portfolio1.jpg" 
+              data-title="Lighter DeFi" 
+             data-desc="Web Development" 
+             data-tags="React, Web3">
+              <img src="images/Portfolio1.jpg" alt="Crypto App">
+              <div class="project-overlay">
+                <h3>Lighter DeFi</h3>
+               <span>Web Development</span>
+              </div>
+           </a>
+
+            <a href="javascript:void(0)" class="project-item"
+                onclick="handleModal(this)"
+                data-img="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+               data-title="Neon Identity" 
+               data-desc="Branding" 
+               data-tags="React, Web3">
+                <img src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                <div class="project-overlay">
+                    <h3>Neon Identity</h3>
+                    <span>Branding</span>
+                </div>
+            </a>
+
+            <a href="javascript:void(0)" class="project-item"
+                onclick="handleModal(this)"
+                data-img="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=600&q=80" 
+               data-title="Aura NFT" 
+               data-desc="UI/UX Design" 
+               data-tags="React, Web3">
+                <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=600&q=80" alt="NFT Market">
+                <div class="project-overlay">
+                    <h3>Aura NFT</h3>
+                    <span>UI/UX Design</span>
+                </div>
+            </a>
+
+            <a href="javascript:void(0)" class="project-item"
+                onclick="handleModal(this)"
+                data-img="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&h=700&q=80" 
+               data-title="Tech Core" 
+               data-desc="3D Modeling" 
+               data-tags="React, Web3">
+                <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&h=700&q=80" alt="Hardware">
+                <div class="project-overlay">
+                    <h3>Tech Core</h3>
+                    <span>3D Modeling</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div id="project-modal" class="modal-overlay" style="display: none;">
+    <div class="modal-glass">
+        <button onclick="closeModal()" class="close-btn">&times;</button>
+        <div class="modal-content">
+            <img id="modal-img" src="" alt="">
+            <h2 id="modal-title"></h2>
+            <p id="modal-desc"></p>
+            <div id="modal-tags" class="project-tags"></div>
+        </div>
+    </div>
+</div>
+</section>
+<section id="process" class="process-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="title">Our path to results</h2>
+        </div>
+
+        <div class="process-wrapper">
+            <div class="process-line">
+                <div class="line-progress"></div>
+            </div>
+
+            <div class="process-steps">
+                <div class="step-item" data-step="1">
+                    <div class="step-dot"></div>
+                    <div class="step-content">
+                        <h3>Research</h3>
+                        <p>We analyze the market, competitors, and user needs to lay a solid foundation.</p>
+                    </div>
+                </div>
+
+                <div class="step-item" data-step="2">
+                    <div class="step-dot"></div>
+                    <div class="step-content">
+                        <h3>Design</h3>
+                        <p>We create visual language and interfaces that captivate at first glance.</p>
+                    </div>
+                </div>
+
+                <div class="step-item" data-step="3">
+                    <div class="step-dot"></div>
+                    <div class="step-content">
+                        <h3>Code</h3>
+                        <p>We transform design into a clean, fast, and scalable software product.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="testimonials" class="testi-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="title">What they say about us</h2>
+        </div>
+        <div class="testi-accordion-wrapper">
+            
+            <div class="testi-card-v2 active" data-client="markov">
+                <div class="card-photo-wrapper">
+                    <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?&w=600&q=80" alt="Олексій Марков" class="client-photo">
+                    <div class="photo-overlay"></div>
+                </div>
+                <div class="card-content-v2">
+                    <div class="short-info">
+                        <h4>Alexey Markov</h4>
+                        <span>CEO, CryptoFlow</span>
+                    </div>
+                    <div class="full-testimonial">
+                        <div class="quote-icon">“</div>
+                        <p>Working with AURA has changed our understanding of digital design. They don't just draw pictures, they create experiences that work for business. The results have exceeded expectations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testi-card-v2" data-client="sokol">
+                <div class="card-photo-wrapper">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?&w=600&q=80" alt="Марина Сокол" class="client-photo">
+                    <div class="photo-overlay"></div>
+                </div>
+                <div class="card-content-v2">
+                    <div class="short-info">
+                        <h4>Marina Sokol</h4>
+                        <span>Founder, TechCore</span>
+                    </div>
+                    <div class="full-testimonial">
+                        <div class="quote-icon">“</div>
+                        <p>Their approach to development is incredible. The code is clean and the visuals keep customers coming back for more. True Cyber-Vibe style pros.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testi-card-v2" data-client="vovk">
+                <div class="card-photo-wrapper">
+                    <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?&w=600&q=80" alt="Дмитро Вовк" class="client-photo">
+                    <div class="photo-overlay"></div>
+                </div>
+                <div class="card-content-v2">
+                    <div class="short-info">
+                        <h4>Dmitry Vovk</h4>
+                        <span>CTO, NexusUI</span>
+                    </div>
+                    <div class="full-testimonial">
+                        <div class="quote-icon">“</div>
+                        <p>Professionalism and a unique visual style are what we needed to launch our marketplace. I recommend AURA as a reliable partner.</p>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="testi-card-v2" data-client="vovk">
+                <div class="card-photo-wrapper">
+                    <img src="https://images.unsplash.com/photo-1654110455429-cf322b40a906?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Дмитро Вовк" class="client-photo">
+                    <div class="photo-overlay"></div>
+                </div>
+                <div class="card-content-v2">
+                    <div class="short-info">
+                        <h4>Дмитро Вовк</h4>
+                        <span>CTO, NexusUI</span>
+                    </div>
+                    <div class="full-testimonial">
+                        <div class="quote-icon">“</div>
+                        <p>Professionalism and a unique visual style are what we needed to launch our marketplace. I recommend AURA as a reliable partner</p>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="testi-card-v2" data-client="vovk">
+                <div class="card-photo-wrapper">
+                    <img src="https://images.unsplash.com/photo-1745434159123-5b99b94206ca?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Дмитро Вовк" class="client-photo">
+                    <div class="photo-overlay"></div>
+                </div>
+                <div class="card-content-v2">
+                    <div class="short-info">
+                        <h4>Brooke Balentine</h4>
+                        <span>CTO, NexusUI</span>
+                    </div>
+                    <div class="full-testimonial">
+                        <div class="quote-icon">“</div>
+                        <p>Professionalism and a unique visual style are what we needed to launch our marketplace. I recommend AURA as a reliable partner</p>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="testi-card-v2" data-client="vovk">
+                <div class="card-photo-wrapper">
+                    <img src="https://images.unsplash.com/photo-1590126169164-d2be3db764c4?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Дмитро Вовк" class="client-photo">
+                    <div class="photo-overlay"></div>
+                </div>
+                <div class="card-content-v2">
+                    <div class="short-info">
+                        <h4>Elias Almaguer</h4>
+                        <span>CTO, NexusUI</span>
+                    </div>
+                    <div class="full-testimonial">
+                        <div class="quote-icon">“</div>
+                        <p>Professionalism and a unique visual style are what we needed to launch our marketplace. I recommend AURA as a reliable partner</p>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="testi-card-v2" data-client="vovk">
+                <div class="card-photo-wrapper">
+                    <img src="https://images.unsplash.com/photo-1742518424517-ca7890ff9510?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Дмитро Вовк" class="client-photo">
+                    <div class="photo-overlay"></div>
+                </div>
+                <div class="card-content-v2">
+                    <div class="short-info">
+                        <h4>Ernest Flowers</h4>
+                        <span>CTO, NexusUI</span>
+                    </div>
+                    <div class="full-testimonial">
+                        <div class="quote-icon">“</div>
+                        <p>Professionalism and a unique visual style are what we needed to launch our marketplace. I recommend AURA as a reliable partner</p>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="testi-card-v2" data-client="vovk">
+                <div class="card-photo-wrapper">
+                    <img src="https://images.unsplash.com/photo-1554250660-d8ba2d397fed?q=80&w=685&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Дмитро Вовк" class="client-photo">
+                    <div class="photo-overlay"></div>
+                </div>
+                <div class="card-content-v2">
+                    <div class="short-info">
+                        <h4>Alexandru Boicu</h4>
+                        <span>CTO, NexusUI</span>
+                    </div>
+                    <div class="full-testimonial">
+                        <div class="quote-icon">“</div>
+                        <p>Professionalism and a unique visual style are what we needed to launch our marketplace. I recommend AURA as a reliable partner</p>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+</section>
+<section id="faq" class="faq-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="title">Questions and answers</h2>
+        </div>
+
+        <div class="faq-wrapper">
+            <details class="faq-item" open>
+                <summary class="faq-question">
+                    How long does it take to develop a website?
+                    <span class="faq-icon"></span>
+                </summary>
+                <div class="faq-answer">
+                    <p>The time frame depends on the complexity of the project. An AURA-style landing page usually takes 7 to 14 days, while complex web applications can take a month or more to develop.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-question">
+                    Do you work with ready-made layouts?
+                    <span class="faq-icon"></span>
+                </summary>
+                <div class="faq-answer">
+                    <p>Yes, we can implement your idea using an existing design in Figma or develop a concept from scratch based on your preferences and business objectives.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-question">
+                    What technologies do you use?
+                    <span class="faq-icon"></span>
+                </summary>
+                <div class="faq-answer">
+                    <p>We use a modern stack: HTML5, CSS3 (SCSS), JavaScript (ES6+), React for the frontend and PHP/MySQL for the backend. We also work with WordPress.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-question">
+                    Do you provide post-launch support?
+                    <span class="faq-icon"></span>
+                </summary>
+                <div class="faq-answer">
+                    <p>Of course. Each client receives 30 days of free technical support and consultations after the official launch of the project.</p>
+                </div>
+            </details>
+        </div>
+    </div>
+</section>
+<section id="contact" class="contact-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="title">Start your project</h2>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-form-wrapper">
+                <form class="aura-form">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="" required>
+                        <label for="name">Your name</label>
+                        <div class="bar"></div>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="" required>
+                        <label for="email">Email</label>
+                        <div class="bar"></div>
+                    </div>
+
+                    <div class="input-group">
+                        <textarea id="message" placeholder="" required></textarea>
+                        <label for="message">Your message</label>
+                        <div class="bar"></div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        Send a request
+                    </button>
+                </form>
+            </div>
+
+            <div class="contact-map-wrapper">
+    <div class="map-container">
+        <div id="map" class="dark-map">
+            <div class="map-placeholder">
+                <div class="map-dot"></div>
+                <div class="map-dot-core"></div>
+                <span>AURA HQ: KYIV, UA</span>
+            </div>
+         </div>
+    </div>
+    
+    <div class="quick-info">
+        <div class="info-item">
+            <span>TG:</span>
+            <a href="#">@bynnuX_studio</a>
+        </div>
+        <div class="info-item">
+            <span>EM:</span>
+            <a href="#">hello@aura.design</a>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</section>
+<footer class="footer-cyber">
+    <div class="container">
+        <p class="copyright">
+            COPYRIGHT © 2026 BY <span class="brand">BUNNYX</span> ALL RIGHTS RESERVED.
+        </p>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
